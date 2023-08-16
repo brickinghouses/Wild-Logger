@@ -59,10 +59,10 @@ time.sleep(1)
 
 while True:
 
-    Write.Print("\nDo you want to build a executable ?", Colors.red_to_purple, end="")
+    Write.Print("\nDo you want to build a executable? | Y/N", Colors.red_to_purple, end="")
     choice = input()
 
-    if choice == "1":
+    if choice == "Y":
         os.system("cls || clear")
         webhook = input(Fore.RED + "\nYour webhook: " + Style.RESET_ALL)
 
