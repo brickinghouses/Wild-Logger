@@ -1,4 +1,4 @@
-                                       ![image](https://github.com/brickinghouses/Wild-Logger/assets/142438806/e910a5e1-afa8-4380-91b5-2dab34ebb52c)
+ ![image](https://github.com/brickinghouses/Wild-Logger/assets/142438806/e910a5e1-afa8-4380-91b5-2dab34ebb52c)
 
 
                                                                                   Wild Logger
