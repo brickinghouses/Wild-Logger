@@ -77,17 +77,7 @@ while True:
 
         obfuscate = False
         while True:
-            answer = input(Fore.RED + "\ndo you want to juke your code | (Y/N) " + Style.RESET_ALL)
-            if answer.upper() == "Y":
-                os.system("python junk.py")
-                Write.Print(f"\n{filename} The file has been junked", Colors.red_to_purple)
-                break
-            elif answer.upper() == "N":
-                break
-            else:
-                Write.Print("\nSomething went Wrong!", Colors.red_to_purple)
-
-            answer = input(Fore.RED + "\nDo you want to add an icon | (Y/N) " + Style.RESET_ALL)
+           answer = input(Fore.RED + "\nDo you want to add an icon | (Y/N) " + Style.RESET_ALL)
             if answer.upper() == "Y":
                 Tk().withdraw()  
                 icon_file = filedialog.askopenfilename(filetypes=[("Icon Files", "*.ico")])
